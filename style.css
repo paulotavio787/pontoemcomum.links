@@ -1,0 +1,97 @@
+*{
+    margin: none;
+    padding: none;
+    border: none;
+}
+
+body {
+    min-height: 80vh;
+    min-width: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #090911;
+    transition: 1s;
+}
+
+img {
+    width: 16vh;
+    height: 16vh;
+    border-radius: 100%;
+    transition: 1s;
+}
+
+#logo {
+    width: 24vh;
+    height: 24vh;
+    transition: 1s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+.twitch {
+    transition: .5s;
+    opacity: 0%;
+    margin-right: 20px;
+}
+
+.twitch:hover {
+    box-shadow: -10px 10px 0 rgba(255, 255, 255, 0.486);
+}
+
+.spot {
+    transition: 1s;
+    opacity: 0%;
+    margin-right: 20px;
+}
+
+.spot:hover {
+    box-shadow: -10px 10px 0 rgba(255, 255, 255, 0.486);
+}
+
+
+.disc {
+    transition: 1.5s;
+    opacity: 0%;
+    margin-right: 20px;
+}
+
+.disc:hover {
+    box-shadow: -10px 10px 0 rgba(255, 255, 255, 0.486);
+}
+
+
+.yout {
+    transition: 2s;
+    opacity: 0%;
+    margin-right: 20px;
+}
+
+.yout:hover {
+    box-shadow: -10px 10px 0 rgba(255, 255, 255, 0.486);
+}
+
+.box {
+    position: -webkit-sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(180deg);
+    margin-top: 30px;
+    transition: 1s;
+}
+
+.container:hover {
+    transform: rotate(180deg);
+}
+
+.container:hover img {
+    opacity: 100%;
+}
